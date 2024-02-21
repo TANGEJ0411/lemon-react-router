@@ -1,0 +1,27 @@
+//全域模組RWD
+@mixin sm-mobile {
+    @media screen and (min-width: 360px) {
+        @content;
+    }
+}
+@mixin mobile {
+    @media screen and (min-width: 508px) {
+        @content;
+    }
+}
+@mixin pad {
+    @media screen and (min-width: 784px) {
+        @content;
+    }
+}
+@mixin PC {
+    @media screen and (min-width: 1020px) {
+        @content;
+    }
+}
+
+@mixin lg-PC {
+    @media screen and (min-width: 1366px) {
+        @content;
+    }
+}
